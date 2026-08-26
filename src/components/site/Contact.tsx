@@ -28,14 +28,16 @@ export function Contact() {
           </a>
         </Reveal>
 
-        <div className="mt-16 grid gap-px border-t border-hairline sm:grid-cols-3">
+        <div className="mt-16 grid border-t border-hairline sm:grid-cols-3">
           {ITEMS.map((item, i) => (
             <Reveal key={item.label} delay={i * 70}>
               <a
                 href={item.href}
                 target={item.href.startsWith("http") ? "_blank" : undefined}
                 rel="noreferrer noopener"
-                className="group flex items-baseline justify-between gap-4 border-b border-hairline py-6 transition-colors hover:text-primary sm:border-b-0"
+                className={`group flex h-full flex-col gap-3 border-b border-hairline py-7 transition-colors hover:text-primary sm:px-6 sm:first:pl-0 ${
+                  i > 0 ? "sm:border-l" : ""
+                }`}
               >
                 <span className="eyebrow">{item.label}</span>
                 <span className="truncate text-sm">
@@ -48,6 +50,7 @@ export function Contact() {
             </Reveal>
           ))}
         </div>
+
       </div>
     </section>
   );
