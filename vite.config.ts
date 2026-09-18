@@ -16,6 +16,6 @@ export default defineConfig({
         pages: [{ path: "/" }],
       },
   vite: {
-    base: isLovableSandbox ? "/" : "/mark-antonovs-portfolio/",
+    base: "/",
   },
 });
