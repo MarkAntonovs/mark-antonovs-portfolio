@@ -22,7 +22,7 @@ export const FEATURED: Project[] = [
       "An independent comparison platform for Colombian credit products, built around dense, structured information and clear side-by-side reading.",
     url: "https://creditocolombia.co/",
     domain: "creditocolombia.co",
-    image: "/mark-antonovs-portfolio/images/creditocolombia.jpg",
+    image: "/images/creditocolombia.jpg",
   },
   {
     name: "Hoy.credit",
@@ -31,7 +31,7 @@ export const FEATURED: Project[] = [
       "A Mexican credit comparison platform focused on transparent cost presentation, with a fast, editorial interface across desktop and mobile.",
     url: "https://hoy.credit/",
     domain: "hoy.credit",
-    image: "/mark-antonovs-portfolio/images/hoycredit.jpg",
+    image: "/images/hoycredit.jpg",
   },
 ];
 
@@ -43,7 +43,7 @@ export const OTHER: Project[] = [
       "A Romanian comparison site organising credit information into a readable, checklist-driven structure.",
     url: "https://finromania.com/",
     domain: "finromania.com",
-    image: "/mark-antonovs-portfolio/images/finromania.jpg",
+    image: "/images/finromania.jpg",
   },
   {
     name: "INACHE",
@@ -52,7 +52,7 @@ export const OTHER: Project[] = [
       "A multilingual property agency site presenting listings with clear typography and straightforward navigation.",
     url: "https://inache.lv/",
     domain: "inache.lv",
-    image: "/mark-antonovs-portfolio/images/inache.jpg",
+    image: "/images/inache.jpg",
   },
   {
     name: "ABC-CONTI",
@@ -61,7 +61,7 @@ export const OTHER: Project[] = [
       "A restrained commercial property site where object details stay legible and easy to scan.",
     url: "https://conti.lv/",
     domain: "conti.lv",
-    image: "/mark-antonovs-portfolio/images/conti.jpg",
+    image: "/images/conti.jpg",
   },
   {
     name: "POLANTA",
@@ -70,7 +70,7 @@ export const OTHER: Project[] = [
       "A services website structured around what the company offers, with a warm, calm visual tone.",
     url: "https://polanta.lv/",
     domain: "polanta.lv",
-    image: "/mark-antonovs-portfolio/images/polanta.jpg",
+    image: "/images/polanta.jpg",
   },
 ];
 

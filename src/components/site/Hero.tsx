@@ -36,7 +36,7 @@ export function Hero() {
             <figure className="relative">
               <div className="overflow-hidden rounded-sm bg-paper-deep">
                 <img
-                  src="/mark-antonovs-portfolio/images/mark-antonovs.jpg"
+                  src="/images/mark-antonovs.jpg"
                   alt="Portrait of Mark Antonovs, web developer based in Jönköping, Sweden"
                   width={1000}
                   height={1484}
