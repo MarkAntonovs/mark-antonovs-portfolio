@@ -1,6 +1,6 @@
-# Mark Antonovs Portfolio
+# Marks Antonovs Portfolio
 
-Create a completely new professional portfolio website for Mark Antonovs, using the attached real portrait.
+Create a completely new professional portfolio website for Marks Antonovs, using the attached real portrait.
 
 The portfolio will be sent directly to business owners and potential web-development clients. It must look like the website of an independent professional web developer/digital product builder — NOT a student portfolio, Fiverr profile, or generic developer template.
 
@@ -14,7 +14,7 @@ GITHUB:
 https://github.com/MarkAntonovs
 
 POSITIONING:
-Mark Antonovs — Web Developer & Digital Product Builder
+Marks Antonovs — Web Developer & Digital Product Builder
 Based in Jönköping, Sweden.
 Focus on business websites, digital products, responsive web development and information-heavy platforms.
 
@@ -23,7 +23,7 @@ Premium, minimal, modern European/Scandinavian style. Strong typography, generou
 
 Avoid neon, cyberpunk, terminal aesthetics, excessive gradients/glassmorphism, skill percentage bars, generic developer templates and unnecessary visual effects.
 
-Use the ATTACHED REAL PORTRAIT prominently in the hero. Do not generate or modify Mark’s face. Use an elegant rectangular/editorial crop.
+Use the ATTACHED REAL PORTRAIT prominently in the hero. Do not generate or modify Marks’ face. Use an elegant rectangular/editorial crop.
 
 STRUCTURE:
 
@@ -43,7 +43,7 @@ HERO:
 Create a concise professional headline such as:
 “Websites built around real businesses.”
 
-Supporting copy should introduce Mark as a web developer based in Jönköping building modern websites and digital products.
+Supporting copy should introduce Marks as a web developer based in Jönköping building modern websites and digital products.
 
 CTA:
 View my work
@@ -92,7 +92,7 @@ visual preview
 “Visit live site ↗”
 
 ABOUT:
-Keep it short and human. Explain that Mark is a web developer based in Jönköping who builds business websites and independent digital products. Do not exaggerate experience or make student status the main identity.
+Keep it short and human. Explain that Marks is a web developer based in Jönköping who builds business websites and independent digital products. Do not exaggerate experience or make student status the main identity.
 
 CAPABILITIES:
 Keep concise:
@@ -111,7 +111,7 @@ Strong final CTA such as:
 “Have something in mind?”
 Include Email, LinkedIn and GitHub.
 
-Use Mark’s existing email from the current portfolio.
+Use Marks’ existing email from the current portfolio.
 
 TECHNICAL REQUIREMENT:
 The entire website MUST be fully static and independently deployable to GitHub Pages.

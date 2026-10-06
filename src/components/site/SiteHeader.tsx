@@ -20,12 +20,14 @@ export function SiteHeader() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-colors duration-500 ${
-        scrolled ? "border-b border-hairline bg-background/85 backdrop-blur-sm" : "border-b border-transparent"
+        scrolled
+          ? "border-b border-hairline bg-background/92 backdrop-blur-sm"
+          : "border-b border-transparent"
       }`}
     >
       <div className="mx-auto flex h-16 max-w-[1240px] items-center justify-between px-6 md:h-20 lg:px-10">
         <a href="#top" className="text-sm tracking-[0.14em] uppercase">
-          Mark Antonovs
+          Marks Antonovs
         </a>
         <nav className="hidden items-center gap-9 md:flex">
           {LINKS.map((l) => (

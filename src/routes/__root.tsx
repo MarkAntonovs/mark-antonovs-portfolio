@@ -77,13 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Mark Antonovs — Web Developer & Digital Product Builder" },
+      { title: "Marks Antonovs — Web Designer & Developer" },
       {
         name: "description",
         content:
           "Web developer in Jönköping, Sweden, building business websites and digital products.",
       },
-      { name: "author", content: "Mark Antonovs" },
+      { name: "author", content: "Marks Antonovs" },
     ],
     links: [
       {

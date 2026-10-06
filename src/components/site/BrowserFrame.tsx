@@ -10,8 +10,8 @@ export function BrowserFrame({
   priority?: boolean;
 }) {
   return (
-    <div className="overflow-hidden rounded-md border border-hairline bg-card shadow-[0_24px_60px_-32px_rgba(20,24,40,0.35)]">
-      <div className="flex items-center gap-3 border-b border-hairline bg-paper-deep/70 px-4 py-2.5">
+    <div className="group/frame overflow-hidden rounded-sm border border-hairline bg-card shadow-[0_28px_70px_-40px_rgba(20,18,16,0.5)] transition-[box-shadow,transform] duration-500 hover:-translate-y-1 hover:shadow-[0_34px_80px_-38px_rgba(20,18,16,0.58)]">
+      <div className="flex items-center gap-3 border-b border-hairline bg-paper-deep/75 px-4 py-2.5">
         <div className="flex gap-1.5">
           <span className="h-2 w-2 rounded-full bg-hairline" />
           <span className="h-2 w-2 rounded-full bg-hairline" />
@@ -24,9 +24,11 @@ export function BrowserFrame({
       <img
         src={src}
         alt={alt}
+        width={1600}
+        height={1000}
         loading={priority ? "eager" : "lazy"}
         decoding="async"
-        className="block w-full"
+        className="block w-full transition-transform duration-700 ease-out group-hover/frame:scale-[1.012]"
       />
     </div>
   );

@@ -8,9 +8,9 @@ import { Capabilities } from "@/components/site/Capabilities";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 
-const title = "Mark Antonovs — Web Developer & Digital Product Builder";
+const title = "Marks Antonovs — Web Designer & Developer";
 const description =
-  "Mark Antonovs is a web developer in Jönköping, Sweden, building business websites, responsive frontends and information-heavy digital products.";
+  "Marks Antonovs is a web designer and developer in Jönköping, Sweden, building business websites, responsive frontends and information-heavy digital products.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

@@ -3,7 +3,7 @@ import { CAPABILITIES, TECH } from "./data";
 
 export function Capabilities() {
   return (
-    <section id="capabilities" className="py-24 md:py-36">
+    <section id="capabilities" className="bg-background py-24 md:py-36">
       <div className="mx-auto max-w-[1240px] px-6 lg:px-10">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <Reveal className="lg:col-span-4">
@@ -18,10 +18,15 @@ export function Capabilities() {
                   as="li"
                   key={c.title}
                   delay={i * 50}
-                  className="flex flex-col gap-1 border-b border-hairline py-6 sm:flex-row sm:items-baseline sm:justify-between sm:gap-10"
+                  className="group flex flex-col gap-3 border-b border-hairline py-7 sm:grid sm:grid-cols-[2rem_1fr_1fr] sm:items-baseline sm:gap-8"
                 >
-                  <h3 className="text-xl sm:text-2xl">{c.title}</h3>
-                  <p className="text-sm text-muted-foreground sm:max-w-xs sm:text-right">
+                  <span className="text-xs tracking-[0.16em] text-primary">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="text-xl transition-colors group-hover:text-primary sm:text-2xl">
+                    {c.title}
+                  </h3>
+                  <p className="text-sm leading-relaxed text-muted-foreground sm:text-right">
                     {c.body}
                   </p>
                 </Reveal>

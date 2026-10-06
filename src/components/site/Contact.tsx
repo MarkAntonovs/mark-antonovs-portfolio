@@ -9,20 +9,20 @@ const ITEMS = [
 
 export function Contact() {
   return (
-    <section id="contact" className="border-t border-hairline py-24 md:py-36">
+    <section id="contact" className="border-t border-hairline bg-paper-deep py-24 md:py-36">
       <div className="mx-auto max-w-[1240px] px-6 lg:px-10">
         <Reveal>
           <p className="eyebrow">Contact</p>
-          <h2 className="mt-6 max-w-3xl text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
+          <h2 className="mt-6 max-w-4xl text-5xl leading-[1.02] sm:text-6xl lg:text-8xl">
             Have something in mind?
           </h2>
           <p className="mt-7 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Tell me about the business and what the site needs to do. I'll reply with an honest
-            view of scope, timeline and whether I'm the right person for it.
+            Tell me about the business and what the site needs to do. I'll reply with an honest view
+            of scope, timeline and whether I'm the right person for it.
           </p>
           <a
             href={`mailto:${CONTACT.email}`}
-            className="mt-10 inline-flex h-12 items-center rounded-sm bg-foreground px-7 text-sm tracking-wide text-background transition-opacity hover:opacity-85"
+            className="mt-10 inline-flex h-12 items-center rounded-sm bg-foreground px-7 text-sm tracking-wide text-background transition-[background-color,transform] hover:-translate-y-0.5 hover:bg-primary"
           >
             {CONTACT.email}
           </a>
@@ -42,7 +42,10 @@ export function Contact() {
                 <span className="eyebrow">{item.label}</span>
                 <span className="truncate text-sm">
                   {item.value}{" "}
-                  <span aria-hidden className="inline-block transition-transform group-hover:-translate-y-0.5">
+                  <span
+                    aria-hidden
+                    className="inline-block transition-transform group-hover:-translate-y-0.5"
+                  >
                     ↗
                   </span>
                 </span>
@@ -50,7 +53,6 @@ export function Contact() {
             </Reveal>
           ))}
         </div>
-
       </div>
     </section>
   );

@@ -40,30 +40,30 @@
 :root {
   --radius: 0.25rem;
 
-  --paper: oklch(0.985 0.003 95);
-  --paper-deep: oklch(0.955 0.005 95);
-  --ink: oklch(0.19 0.012 260);
-  --hairline: oklch(0.885 0.006 95);
+  --paper: oklch(0.965 0.012 76);
+  --paper-deep: oklch(0.925 0.02 75);
+  --ink: oklch(0.16 0.018 265);
+  --hairline: oklch(0.8 0.018 74);
 
   --background: var(--paper);
   --foreground: var(--ink);
-  --card: oklch(1 0 0);
+  --card: oklch(0.992 0.006 78);
   --card-foreground: var(--ink);
   --popover: oklch(1 0 0);
   --popover-foreground: var(--ink);
-  --primary: oklch(0.48 0.115 255);
+  --primary: oklch(0.56 0.17 32);
   --primary-foreground: oklch(0.99 0.002 250);
   --secondary: var(--paper-deep);
   --secondary-foreground: var(--ink);
   --muted: var(--paper-deep);
-  --muted-foreground: oklch(0.52 0.012 260);
-  --accent: oklch(0.48 0.115 255);
+  --muted-foreground: oklch(0.44 0.018 265);
+  --accent: oklch(0.56 0.17 32);
   --accent-foreground: oklch(0.99 0.002 250);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
   --border: var(--hairline);
   --input: var(--hairline);
-  --ring: oklch(0.48 0.115 255);
+  --ring: oklch(0.56 0.17 32);
 }
 
 @layer base {
@@ -94,6 +94,11 @@
 
   ::selection {
     background: color-mix(in oklab, var(--primary) 22%, transparent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 4px;
   }
 }
 

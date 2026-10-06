@@ -14,7 +14,7 @@ export type Project = {
   image: string;
 };
 
-export const FEATURED: Project[] = [
+export const PROJECTS: Project[] = [
   {
     name: "First Company",
     category: "Building engineering services website",
@@ -42,14 +42,11 @@ export const FEATURED: Project[] = [
     domain: "hoy.credit",
     image: "/images/hoycredit.jpg",
   },
-];
-
-export const OTHER: Project[] = [
   {
     name: "FinRomania",
     category: "Financial comparison platform · Romania",
     description:
-      "A Romanian comparison site organising credit information into a readable, checklist-driven structure.",
+      "A Romanian credit comparison site combining practical cost guidance with a clear safety checklist for evaluating online lenders.",
     url: "https://finromania.com/",
     domain: "finromania.com",
     image: "/images/finromania.jpg",
@@ -58,7 +55,7 @@ export const OTHER: Project[] = [
     name: "INACHE",
     category: "Real estate website",
     description:
-      "A multilingual property agency site presenting listings with clear typography and straightforward navigation.",
+      "A multilingual property agency website that keeps residential and commercial listings direct, visual and easy to navigate.",
     url: "https://inache.lv/",
     domain: "inache.lv",
     image: "/images/inache.jpg",
@@ -67,16 +64,16 @@ export const OTHER: Project[] = [
     name: "ABC-CONTI",
     category: "Commercial real estate website",
     description:
-      "A restrained commercial property site where object details stay legible and easy to scan.",
+      "A restrained multilingual website for commercial property listings, presenting parking and office spaces in central Riga.",
     url: "https://conti.lv/",
     domain: "conti.lv",
     image: "/images/conti.jpg",
   },
   {
     name: "POLANTA",
-    category: "Business services website",
+    category: "Multi-service business website",
     description:
-      "A services website structured around what the company offers, with a warm, calm visual tone.",
+      "A warm, straightforward website bringing the company’s web development, photography and car rental services into one place.",
     url: "https://polanta.lv/",
     domain: "polanta.lv",
     image: "/images/polanta.jpg",
@@ -110,11 +107,4 @@ export const CAPABILITIES = [
   },
 ];
 
-export const TECH = [
-  "React",
-  "TypeScript",
-  "JavaScript",
-  "HTML / CSS",
-  "Tailwind",
-  "Git / GitHub",
-];
+export const TECH = ["React", "TypeScript", "JavaScript", "HTML / CSS", "Tailwind", "Git / GitHub"];
