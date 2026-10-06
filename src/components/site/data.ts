@@ -16,6 +16,15 @@ export type Project = {
 
 export const FEATURED: Project[] = [
   {
+    name: "First Company",
+    category: "Building engineering services website",
+    description:
+      "A bilingual website for a Riga building engineering company, presenting heating, plumbing, ventilation and gas system services for residential and commercial buildings.",
+    url: "https://firstcompany.lv/",
+    domain: "firstcompany.lv",
+    image: "/images/firstcompany.jpg",
+  },
+  {
     name: "CreditoColombia.co",
     category: "Financial comparison platform",
     description:
