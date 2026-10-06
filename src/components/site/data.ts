@@ -1,5 +1,5 @@
 export const CONTACT = {
-  email: "marks.antonoff@gmail.com",
+  email: "contact@markswebservices.se",
   linkedin: "https://www.linkedin.com/in/marks-antonovs-785a37389/",
   github: "https://github.com/MarkAntonovs",
   location: "Jönköping, Sweden",
