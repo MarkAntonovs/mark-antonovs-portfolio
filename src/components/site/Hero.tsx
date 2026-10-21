@@ -37,7 +37,7 @@ export function Hero() {
           </div>
 
           <div className="lg:col-span-5 lg:pt-4">
-            <figure className="relative">
+            <figure className="relative mx-auto max-w-[420px] lg:ml-auto lg:mr-0">
               <div
                 className="absolute -right-4 -bottom-4 h-36 w-36 bg-primary sm:-right-5 sm:-bottom-5"
                 aria-hidden
